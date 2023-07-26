@@ -1,0 +1,10 @@
+<link rel="icon" href="./gtask.ico" sizes="48x48">
+<title>Google Tasks</title>
+<body>
+  <h1>Google Tasks Redirector</h1>
+  <h2>Add this page to your browsers sidebar, then press the button below to redirect (until you clear localstorage)</h2>
+  <button onclick="localStorage.go = 'yea'">Do it!</button>
+  <script>
+    if(localStorage.go == 'yea'){window.location.href = "https://tasks.google.com/embed/?origin=https://mail.google.com&fullWidth=1"}
+  </script>
+</body>
